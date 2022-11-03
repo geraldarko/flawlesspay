@@ -86,27 +86,28 @@
 						<ul class="sf-menu" id="fh5co-primary-menu">
 							<li><a class="active" href="index.html">Home</a></li>
 							<li>
-								<a href="hotel.html" class="fh5co-sub-ddown">Hotel</a>
+								<a href="view/hostel.html" class="fh5co-sub-ddown">Hostel</a>
 								<ul class="fh5co-sub-menu">
 								 	<li><a href="#">Tanko Hostel</a></li>
 								 	<li><a href="#">Charlotte Hostel</a></li>
 									<li>
 										<a href="#" class="fh5co-sub-ddown">Dufie Hostel</a>
-										<ul class="fh5co-sub-menu">
+<!-- 										<ul class="fh5co-sub-menu">
 											<li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Annex</a></li>
 											<li><a href="http://freehtml5.co/preview/?item=work-free-html5-template-bootstrap" target="_blank">Platinum</a></li>
 											<li><a href="http://freehtml5.co/preview/?item=light-free-html5-template-bootstrap" target="_blank">Gold</a></li>
 											<li><a href="http://freehtml5.co/preview/?item=relic-free-html5-template-using-bootstrap" target="_blank">F Block</a></li>
 											<li><a href="http://freehtml5.co/preview/?item=sprint-free-html5-template-bootstrap" target="_blank">M Block</a></li>
-										</ul>
+										</ul> -->
 									</li>
-									<li><a href="#">Masere</a></li> 
+									<li><a href="#">Masere Hostel</a></li> 
+									<li><a href="#">Hosanna Hostel</a></li> 
 								</ul>
 							</li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="blog.html">Off Campus Blog</a></li>
-							<li><a href="contact.html">Contact</a></li>
-							<li><a href="contact.html">Bookings</a></li>
+							<li><a href="view/services.html">Services</a></li>
+							<li><a href="view/blog.html">Off Campus Blog</a></li>
+							<li><a href="view/contact.html">Contact</a></li>
+							<li><a href="">Bookings</a></li>
 							<li><a href="">Log Out</a></li>
 						</ul>
 					</nav>
@@ -119,7 +120,7 @@
 	<aside id="fh5co-hero" class="js-fullheight">
 		<div class="flexslider js-fullheight">
 			<ul class="slides">
-		   	<li style="background-image: url(images/slider1.jpg);">
+		   	<li style="background-image: url(images/dufie.jpg);">
 		   		<div class="overlay-gradient"></div>
 		   		<div class="container">
 		   			<div class="col-md-12 col-md-offset-0 text-center slider-text">
@@ -135,7 +136,7 @@
 		   			</div>
 		   		</div>
 		   	</li>
-		   	<li style="background-image: url(images/slider2.jpg);">
+		   	<li style="background-image: url(images/tanko.JPG);">
 		   		<div class="overlay-gradient"></div>
 		   		<div class="container">
 		   			<div class="col-md-12 col-md-offset-0 text-center slider-text">
@@ -151,13 +152,13 @@
 		   			</div>
 		   		</div>
 		   	</li>
-		   	<li style="background-image: url(images/slider3.jpg);">
+		   	<li style="background-image: url(images/masere.JPG);">
 		   		<div class="overlay-gradient"></div>
 		   		<div class="container">
 		   			<div class="col-md-12 col-md-offset-0 text-center slider-text">
 		   				<div class="slider-text-inner js-fullheight">
 		   					<div class="desc">
-		   						<p><span>Dufie Hotel</span></p>
+		   						<p><span>Masere Hostel</span></p>
 		   						<h2>A Best Place To Enjoy Your Semester</h2>
 			   					<p>
 			   						<a href="#" class="btn btn-primary btn-lg">Book Now</a>
@@ -167,6 +168,38 @@
 		   			</div>
 		   		</div>
 		   	</li>
+			   <li style="background-image: url(images/hosanna.jpg);">
+				<div class="overlay-gradient"></div>
+				<div class="container">
+					<div class="col-md-12 col-md-offset-0 text-center slider-text">
+						<div class="slider-text-inner js-fullheight">
+							<div class="desc">
+								<p><span>Hosanna Hostel</span></p>
+								<h2>A Best Place To Enjoy Your Semester</h2>
+								<p>
+									<a href="#" class="btn btn-primary btn-lg">Book Now</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li style="background-image: url(images/char.jpg);">
+				<div class="overlay-gradient"></div>
+				<div class="container">
+					<div class="col-md-12 col-md-offset-0 text-center slider-text">
+						<div class="slider-text-inner js-fullheight">
+							<div class="desc">
+								<p><span>Charlotte Hostel</span></p>
+								<h2>A Best Place To Enjoy Your Semester</h2>
+								<p>
+									<a href="#" class="btn btn-primary btn-lg">Book Now</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
 		   	
 		  	</ul>
 	  	</div>
@@ -180,14 +213,36 @@
 						<div class="a-col">
 							<section>
 								<select class="cs-select cs-skin-border">
-									<option value="" disabled selected>Select Hotel</option>
-									<option value="email">Luxe Hotel</option>
-									<option value="twitter">Deluxe Hotel</option>
-									<option value="linkedin">Five Star Hotel</option>
+									<option value="" disabled selected>Select Hostels</option>
+									<option value="">Tanko Hostel</option>
+									<option value="">Charlotte Hostel</option>
+									<option value="">Dufie Hostel</option>
+									<option value="">Masere Hostel</option>
+									<option value="">Hosanna Hostel</option>
 								</select>
 							</section>
 						</div>
 						<div class="a-col alternate">
+							<section>
+								<select class="cs-select cs-skin-border">
+									<option value="" disabled selected>Select Semester</option>
+									<option value="">Semester One</option>
+									<option value="">Semester Two</option>
+								</select>
+							</section>
+						</div>
+						<div class="a-col alternate">
+							<section>
+								<select class="cs-select cs-skin-border">
+									<option value="" disabled selected>Room Type</option>
+									<option value="">One In A Room</option>
+									<option value="">Two In A Room</option>
+									<option value="">Three In A Room</option>
+									<option value="">Four In A Room</option>
+								</select>
+							</section>
+						</div>
+						<!-- <div class="a-col alternate">
 							<div class="input-field">
 								<label for="date-start">Check In</label>
 								<input type="text" class="form-control" id="date-start" />
@@ -198,7 +253,7 @@
 								<label for="date-end">Check Out</label>
 								<input type="text" class="form-control" id="date-end" />
 							</div>
-						</div>
+						</div> -->
 						<div class="a-col action">
 							<a href="#">
 								<span>Check</span>
@@ -246,44 +301,74 @@
 			</div>
 
 			<div class="row">
+				
+				<!-- Tanko Hostel -->
 				<div class="feature-full-1col">
-					<div class="image" style="background-image: url(images/hotel_feture_1.jpg);">
+					<div class="image" style="background-image: url(images/tanko.JPG);">
 						<div class="descrip text-center">
-							<p><small>For as low as</small><span>$100/Semester</span></p>
+							<p><small>For as low as</small><span>¢6000/Semester</span></p>
 						</div>
 					</div>
 					<div class="desc">
 						<h3>Tanko Hostel</h3>
-						<p>Pellentesque habitant morbi tristique senectus et netus ett mauada fames ac turpis egestas. Etiam euismod tempor leo, in suscipit urna condimentum sed. Vivamus augue enim, consectetur ac interdum a, pulvinar ac massa. Nullam malesuada congue </p>
+						<p>Tanko Hostel is one of the most luxurious hostels in Ashesi with the modern facilities needed to make your stay as a student very comfortable and enjoyable. The rooms are very spacious with a very serene environment. Security in this hostel is top-notch.</p>
 						<p><a href="#" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
 					</div>
 				</div>
 
-				<div class="feature-full-2col">
-					<div class="f-hotel">
-						<div class="image" style="background-image: url(images/hotel_feture_2.jpg);">
-							<div class="descrip text-center">
-								<p><small>For as low as</small><span>$200/Semester</span></p>
-							</div>
-						</div>
-						<div class="desc">
-							<h3>Masere Hostel</h3>
-							<p>Pellentesque habitant morbi tristique senectus et netus ett mauada fames ac turpis egestas. Etiam euismod tempor leo, 
-							in suscipit urna condimentum sed. </p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
+				<!-- Dufie Hostel -->
+				<div class="feature-full-1col">
+					<div class="image" style="background-image: url(images/dufie.jpg);">
+						<div class="descrip text-center">
+							<p><small>For as low as</small><span>¢4000/Semester</span></p>
 						</div>
 					</div>
-					<div class="f-hotel">
-						<div class="image" style="background-image: url(images/hotel_feture_3.jpg);">
-							<div class="descrip text-center">
-								<p><small>For as low as</small><span>$99/night</span></p>
-							</div>
+					<div class="desc">
+						<h3>Dufie Hostel</h3>
+						<p>Dufie Platinum Hostel is one of the most popular hostels in Ashesi University College and is known by most students. It is well equipped with modern facilities needed to make your stay as a student very comfortable and enjoyable. The rooms are very spacious with a very serene environment. Security in this hostel is top-notch.</p>
+						<p><a href="#" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
+					</div>
+				</div>
+
+				<!-- Masere Hostel -->
+				<div class="feature-full-1col">
+					<div class="image" style="background-image: url(images/masere.JPG);">
+						<div class="descrip text-center">
+							<p><small>For as low as</small><span>¢5200/Semester</span></p>
 						</div>
-						<div class="desc">
-							<h3>Dufie Hostel</h3>
-							<p>Pellentesque habitant morbi tristique senectus et netus ett mauada fames ac turpis egestas. Etiam euismod tempor leo, in suscipit urna condimentum sed. </p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
+					</div>
+					<div class="desc">
+						<h3>Masere Hostel</h3>
+						<p>Masere Hostel is well equipped with modern facilities needed to make your stay as a student very comfortable and enjoyable. The rooms are very spacious with a very serene environment. Security in this hostel is top-notch.</p>
+						<p><a href="#" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
+					</div>
+				</div>
+
+				<!-- Hosanna Hostel -->
+				<div class="feature-full-1col">
+					<div class="image" style="background-image: url(images/hosanna.jpg);">
+						<div class="descrip text-center">
+							<p><small>For as low as</small><span>¢4500/Semester</span></p>
 						</div>
+					</div>
+					<div class="desc">
+						<h3>Hosanna Hostel</h3>
+						<p>Hosanna Hostel is well-equipped with the modern facilities needed to make your stay as a student very comfortable and enjoyable. The rooms are very spacious with a very serene environment. Security in this hostel is top-notch.</p>
+						<p><a href="#" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
+					</div>
+				</div>
+
+				<!-- Charlotte Hostel -->
+				<div class="feature-full-1col">
+					<div class="image" style="background-image: url(images/char.jpg);">
+						<div class="descrip text-center">
+							<p><small>For as low as</small><span>¢4700/Semester</span></p>
+						</div>
+					</div>
+					<div class="desc">
+						<h3>Charlotte Hostel</h3>
+						<p>Charlotte Court Hostel is well-equipped with the modern facilities needed to make your stay as a student very comfortable and enjoyable. The rooms are very spacious with a very serene environment. Security in this hostel is top-notch.</p>
+						<p><a href="#" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
 					</div>
 				</div>
 			</div>
@@ -457,7 +542,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="section-title text-center">
-						<h2>Happy Customer Says...</h2>
+						<h2>Happy Clients Says...</h2>
 					</div>
 				</div>
 			</div>
@@ -465,25 +550,25 @@
 				<div class="col-md-4">
 					<div class="testimony">
 						<blockquote>
-							&ldquo;If you’re looking for a top quality hotel look no further. We were upgraded free of charge to the Premium Suite, thanks so much&rdquo;
+							&ldquo;"Saves student the stress of looking for hostel information and booking"&rdquo;
 						</blockquote>
-						<p class="author"><cite>John Doe</cite></p>
+						<p class="author"><cite>Obed Agyemang</cite></p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="testimony">
 						<blockquote>
-							&ldquo;Me and my wife had a delightful weekend get away here, the staff were so friendly and attentive. Highly Recommended&rdquo;
+							&ldquo;Information on websites are reliable and are always updated&rdquo;
 						</blockquote>
-						<p class="author"><cite>Rob Smith</cite></p>
+						<p class="author"><cite>Ohemaa Boadu</cite></p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="testimony">
 						<blockquote>
-							&ldquo;If you’re looking for a top quality hotel look no further. We were upgraded free of charge to the Premium Suite, thanks so much&rdquo;
+							&ldquo;"Payment for hostels are simple and room bookings are so convenient"&rdquo;
 						</blockquote>
-						<p class="author"><cite>Jane Doe</cite></p>
+						<p class="author"><cite>Prince Yeboah</cite></p>
 					</div>
 				</div>
 			</div>
@@ -502,36 +587,36 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<div class="blog-grid" style="background-image: url(images/image-1.jpg);">
+					<div class="blog-grid" style="background-image: url(images/voltafootball.jpg);">
 						<div class="date text-center">
-							<span>09</span>
-							<small>Aug</small>
+							<span>21</span>
+							<small>Oct</small>
 						</div>
 					</div>
 					<div class="desc">
-						<h3><a href="#">Most Expensive Hotel</a></h3>
+						<h3><a href="#">Volta Football</a></h3>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="blog-grid" style="background-image: url(images/image-2.jpg);">
+					<div class="blog-grid" style="background-image: url(images/ubora.jpg);">
 						<div class="date text-center">
-							<span>09</span>
-							<small>Aug</small>
+							<span>02</span>
+							<small>Dec</small>
 						</div>
 					</div>
 					<div class="desc">
-						<h3><a href="#">1st Anniversary of Luxe Hotel</a></h3>
+						<h3><a href="#">Ubora</a></h3>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="blog-grid" style="background-image: url(images/image-3.jpg);">
+					<div class="blog-grid" style="background-image: url(images/ashletics.png);">
 						<div class="date text-center">
-							<span>09</span>
-							<small>Aug</small>
+							<span>05</span>
+							<small>Dec</small>
 						</div>
 					</div>
 					<div class="desc">
-						<h3><a href="#">Discover New Adventure</a></h3>
+						<h3><a href="#">Ashletics</a></h3>
 					</div>
 				</div>
 			</div>
@@ -543,21 +628,21 @@
 			<div class="row">
 				<div class="col-md-3">
 					<div class="copyright">
-						<p><small>&copy; 2016 Free HTML5 Template. <br> All Rights Reserved. <br>
-						Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> <br> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small></p>
+						<p><small>&copy; 2016. <br> Men In Tech Industries <br>
+						<!-- Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> <br> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small></p> -->
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="row">
 						<div class="col-md-3">
-							<h3>Company</h3>
+							<h3>Flawless Pay</h3>
 							<ul class="link">
 								<li><a href="#">About Us</a></li>
 								<li><a href="#">Hostels</a></li>
 								<li><a href="#">Contact Us</a></li>
 							</ul>
 						</div>
-						<div class="col-md-3">
+<!-- 						<div class="col-md-3">
 							<h3>Our Facilities</h3>
 							<ul class="link">
 								<li><a href="#">Resturant</a></li>
@@ -567,10 +652,10 @@
 								<li><a href="#">Spa</a></li>
 								<li><a href="#">Gym</a></li>
 							</ul>
-						</div>
+						</div> -->
 						<div class="col-md-6">
 							<h3>Subscribe</h3>
-							<p>Sed cursus ut nibh in semper. Mauris varius et magna in fermentum. </p>
+							<p>Subscribe to our mailing list for hostel updates</p>
 							<form action="#" id="form-subscribe">
 								<div class="form-field">
 									<input type="email" placeholder="Email Address" id="email">
@@ -583,10 +668,10 @@
 				<div class="col-md-3">
 					<ul class="social-icons">
 						<li>
-							<a href="#"><i class="icon-twitter-with-circle"></i></a>
-							<a href="#"><i class="icon-facebook-with-circle"></i></a>
-							<a href="#"><i class="icon-instagram-with-circle"></i></a>
-							<a href="#"><i class="icon-linkedin-with-circle"></i></a>
+							<a href="https://twitter.com"><i class="icon-twitter-with-circle"></i></a>
+							<a href="https://www.facebook.com"><i class="icon-facebook-with-circle"></i></a>
+							<a href="https://www.instagram.com"><i class="icon-instagram-with-circle"></i></a>
+							<a href="https://www.linkedin.com"><i class="icon-linkedin-with-circle"></i></a>
 						</li>
 					</ul>
 				</div>
