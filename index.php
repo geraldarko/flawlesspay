@@ -107,7 +107,7 @@
 							<li><a href="view/services.html">Services</a></li>
 							<li><a href="view/blog.html">Off Campus Blog</a></li>
 							<li><a href="view/contact.html">Contact</a></li>
-							<li><a href="">Bookings</a></li>
+							<!-- <li><a href="">Bookings</a></li> -->
 							<li><a href="">Log Out</a></li>
 						</ul>
 					</nav>
