@@ -113,7 +113,7 @@
 							<li><a href="blog.php">Off Campus Blog</a></li>
 							<li><a href="contact.php">Contact</a></li>
 							<!-- <li><a href="">Bookings</a></li> -->
-							<li><a href="">Log Out</a></li>
+							<li><a href="">Log In</a></li>
 						</ul>
 					</nav>
 				</div>
