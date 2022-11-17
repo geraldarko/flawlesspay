@@ -1,8 +1,8 @@
 <?php
 //credentials
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'flawless_pay');
+define("SERVER","localhost");
+define("USERNAME","root");
+define("PASSWD","");
+define("DATABASE","flawless_pay");
 
 ?>

@@ -8,7 +8,6 @@ require('db_cred.php');
  *@author David Sampah
  *@version 1.1
  */
-
 class db_connection
 {
 	//properties
@@ -23,7 +22,7 @@ class db_connection
 	function db_connect(){
 		
 		//connection
-		$this->db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_NAME);
+		$this->db = mysqli_connect(SERVER,USERNAME,PASSWD,DATABASE);
 		
 		//test the connection
 		if (mysqli_connect_errno()) {
@@ -54,7 +53,8 @@ class db_connection
 		if ($this->results == false) {
 			return false;
 		}else{
-			return true;
+			return $this->results;
+			//print_r($this->results);
 		}
 	}
 
@@ -74,6 +74,7 @@ class db_connection
 			return false;
 		}else{
 			return true;
+
 		}
 	}
 
@@ -89,7 +90,8 @@ class db_connection
 			return false;
 		} 
 		//return a record
-		return mysqli_fetch_assoc($this->results);
+		 return mysqli_fetch_assoc($this->results);
+		//print_r(mysqli_fetch_assoc($this->results);
 	}
 
 	//fetch all data
@@ -114,7 +116,7 @@ class db_connection
 	*@return a count
 	**/
 	function db_count(){
-		
+			
 		//check if result was set
 		if ($this->results == null) {
 			return false;
@@ -126,6 +128,22 @@ class db_connection
 		//return a record
 		return mysqli_num_rows($this->results);
 
+	}
+
+	//count a data
+	/**
+	*get select data
+	*@return a record
+	**/
+	function db_count_one($sql){
+		
+		// if executing query returns false
+		if(!$this->db_query($sql)){
+			return false;
+		} 
+		//return a record
+		mysqli_fetch_assoc($this->results);
+		return $this -> db_count();
 	}
 	
 }

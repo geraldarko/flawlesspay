@@ -81,17 +81,17 @@
 			<div class="container">
 				<div class="nav-header">
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-					<h1 id="fh5co-logo"><a href="index.html">Flawless Pay</a></h1>
+					<h1 id="fh5co-logo"><a href="index.php">Flawless Pay</a></h1>
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li><a class="active" href="index.html">Home</a></li>
+							<li><a class="active" href="index.php">Home</a></li>
 							<li>
 								<a href="#" class="fh5co-sub-ddown">Hostel</a>
 								<ul class="fh5co-sub-menu">
-								 	<li><a href="view/tankohostel.html">Tanko Hostel</a></li>
-								 	<li><a href="view/charlottehostel.html">Charlotte Hostel</a></li>
+								 	<li><a href="view/tankohostel.php">Tanko Hostel</a></li>
+								 	<li><a href="view/charlottehostel.php">Charlotte Hostel</a></li>
 									<li>
-										<a href="view/dufie.html" class="fh5co-sub-ddown">Dufie Hostel</a>
+										<a href="view/dufie.php" class="fh5co-sub-ddown">Dufie Hostel</a>
 <!-- 										<ul class="fh5co-sub-menu">
 											<li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Annex</a></li>
 											<li><a href="http://freehtml5.co/preview/?item=work-free-html5-template-bootstrap" target="_blank">Platinum</a></li>
@@ -100,15 +100,15 @@
 											<li><a href="http://freehtml5.co/preview/?item=sprint-free-html5-template-bootstrap" target="_blank">M Block</a></li>
 										</ul> -->
 									</li>
-									<li><a href="view/masere.html">Masere Hostel</a></li> 
-									<li><a href="view/hosanna.html">Hosanna Hostel</a></li> 
+									<li><a href="view/masere.php">Masere Hostel</a></li> 
+									<li><a href="view/hosanna.php">Hosanna Hostel</a></li> 
 								</ul>
 							</li>
 							<li><a href="view/services.html">Services</a></li>
 							<li><a href="view/blog.html">Off Campus Blog</a></li>
 							<li><a href="view/contact.html">Contact</a></li>
 							<!-- <li><a href="">Bookings</a></li> -->
-							<li><a href="">Log Out</a></li>
+							<li><a href="login/logout.php">Log Out</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -129,7 +129,7 @@
 		   						<p><span>Dufie Hostel</span></p>
 		   						<h2>Reserve A Room For The Semester</h2>
 			   					<p>
-			   						<a href="view/dufie.html" class="btn btn-primary btn-lg">Book Now</a>
+			   						<a href="view/dufie.php" class="btn btn-primary btn-lg">Book Now</a>
 			   					</p>
 		   					</div>
 		   				</div>
@@ -145,7 +145,7 @@
 		   						<p><span>Tanko Hostel</span></p>
 		   						<h2>Make Your Semester Comfortable</h2>
 			   					<p>
-			   						<a href="view/tankohostel.html" class="btn btn-primary btn-lg">Book Now</a>
+			   						<a href="view/tankohostel.php" class="btn btn-primary btn-lg">Book Now</a>
 			   					</p>
 		   					</div>
 		   				</div>
@@ -161,7 +161,7 @@
 		   						<p><span>Masere Hostel</span></p>
 		   						<h2>A Good Place To Enjoy Your Semester</h2>
 			   					<p>
-			   						<a href="view/masere.html" class="btn btn-primary btn-lg">Book Now</a>
+			   						<a href="view/masere.php" class="btn btn-primary btn-lg">Book Now</a>
 			   					</p>
 		   					</div>
 		   				</div>
@@ -177,7 +177,7 @@
 								<p><span>Hosanna Hostel</span></p>
 								<h2>Make Your Semester Comfortable</h2>
 								<p>
-									<a href="view/hosanna.html" class="btn btn-primary btn-lg">Book Now</a>
+									<a href="view/hosanna.php" class="btn btn-primary btn-lg">Book Now</a>
 								</p>
 							</div>
 						</div>
@@ -193,7 +193,7 @@
 								<p><span>Charlotte Hostel</span></p>
 								<h2>A Good Place To Enjoy Your Semester</h2>
 								<p>
-									<a href="view/charlottehostel.html" class="btn btn-primary btn-lg">Book Now</a>
+									<a href="view/charlottehostel.php" class="btn btn-primary btn-lg">Book Now</a>
 								</p>
 							</div>
 						</div>
@@ -300,7 +300,7 @@
 					<div class="desc">
 						<h3>Tanko Hostel</h3>
 						<p>Tanko Hostel is one of the most luxurious hostels in Ashesi with the modern facilities needed to make your stay as a student very comfortable and enjoyable. The rooms are very spacious with a very serene environment. Security in this hostel is top-notch.</p>
-						<p><a href="view/tankohostel.html" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
+						<p><a href="view/tankohostel.php" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
 					</div>
 				</div>
 
@@ -314,7 +314,7 @@
 					<div class="desc">
 						<h3>Dufie Hostel</h3>
 						<p>Dufie Platinum Hostel is one of the most popular hostels in Ashesi University College and is known by most students. It is well equipped with modern facilities needed to make your stay as a student very comfortable and enjoyable. The rooms are very spacious with a very serene environment. Security in this hostel is top-notch.</p>
-						<p><a href="view/dufie.html" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
+						<p><a href="view/dufie.php" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
 					</div>
 				</div>
 
@@ -328,7 +328,7 @@
 					<div class="desc">
 						<h3>Masere Hostel</h3>
 						<p>Masere Hostel is well equipped with modern facilities needed to make your stay as a student very comfortable and enjoyable. The rooms are very spacious with a very serene environment. Security in this hostel is top-notch.</p>
-						<p><a href="view/masere.html" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
+						<p><a href="view/masere.php" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
 					</div>
 				</div>
 
@@ -342,7 +342,7 @@
 					<div class="desc">
 						<h3>Hosanna Hostel</h3>
 						<p>Hosanna Hostel is well-equipped with the modern facilities needed to make your stay as a student very comfortable and enjoyable. The rooms are very spacious with a very serene environment. Security in this hostel is top-notch.</p>
-						<p><a href="view/hosanna.html" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
+						<p><a href="view/hosanna.php" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
 					</div>
 				</div>
 
@@ -356,7 +356,7 @@
 					<div class="desc">
 						<h3>Charlotte Hostel</h3>
 						<p>Charlotte Court Hostel is well-equipped with the modern facilities needed to make your stay as a student very comfortable and enjoyable. The rooms are very spacious with a very serene environment. Security in this hostel is top-notch.</p>
-						<p><a href="view/charlottehostel.html" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
+						<p><a href="view/charlottehostel.php" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
 					</div>
 				</div>
 			</div>
