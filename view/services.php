@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Masere Hostel</title>
+	<title>Services</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -48,7 +48,7 @@
 	<!-- <link rel="stylesheet" href="css/owl.carousel.css"> -->
 	<!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
 	<!-- Date Picker -->
-	<link rel="stylesheet" href="../css/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" href="../ss/bootstrap-datepicker.min.css">
 	<!-- CS Select -->
 	<link rel="stylesheet" href="../css/cs-select.css">
 	<link rel="stylesheet" href="../css/cs-skin-border.css">
@@ -64,8 +64,6 @@
 	
 	<!-- Style -->
 	<link rel="stylesheet" href="../css/style.css">
-	<link rel="stylesheet" href="../css/stylebook.css">
-
 
 	<!-- Modernizr JS -->
 	<script src="../js/modernizr-2.6.2.min.js"></script>
@@ -83,26 +81,25 @@
 			<div class="container">
 				<div class="nav-header">
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-					<h1 id="fh5co-logo"><a href="../index.html">Flawless Pay</a></h1>
+					<h1 id="fh5co-logo"><a href="../index.php">Flawless Pay</a></h1>
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li><a href="../index.html">Home</a></li>
+							<li><a href="../index.php">Home</a></li>
 							<li>
-								<a class="active" href="#" class="fh5co-sub-ddown">Hostel</a>
+								<a href="#" class="fh5co-sub-ddown">Hostel</a>
 								<ul class="fh5co-sub-menu">
-								 	<li><a href="tankohostel.html">Tanko Hostel</a></li>
-								 	<li><a href="charlottehostel.html">Charlotte Hostel</a></li>
-									</li>
-									<li><a href="dufie.html">Dufie Hostel</a></li> 
-									<li><a href="masere.html">Masere Hostel</a></li> 
-									<li><a href="hosanna.html">Hosanna Hostel</a></li> 
+								 	<li><a href="tankohostel.php">Tanko Hostel</a></li>
+								 	<li><a href="charlottehostel.php">Charlotte Hostel</a></li>
+									<li><a href="dufie.php" class="fh5co-sub-ddown">Dufie Hostel</a></li>
+									<li><a href="masere.php">Masere Hostel</a></li> 
+									<li><a href="hosanna.php">Hosanna Hostel</a></li> 
 								</ul>
 							</li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="blog.html">Off Campus Blog</a></li>
-							<li><a href="contact.html">Contact</a></li>
-							<!-- <li><a href="">Bookings</a></li> -->
-							<li><a href="">Log Out</a></li>
+							<li><a class="active" href="services.php">Services</a></li>
+							<li><a href="blog.php"> Offcampus Blog</a></li>
+							<li><a href="contact.php">Contact</a></li>
+							<!-- <li><a href="#">Bookings</a></li> -->
+							<li><a href="#">Log out</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -111,97 +108,98 @@
 		
 	</div>
 	<!-- end:fh5co-header -->
-	<div class="fh5co-parallax" style="background-image: url(../images/masere.JPG);" data-stellar-background-ratio="0.5">
+	<div class="fh5co-parallax" style="background-image: url(../images/ourservices.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 					<div class="fh5co-intro fh5co-table-cell">
-						<h1 class="text-center">Welcome To Masere Hostel</h1>
-						<p>Facilities: DSTV, Balcony, Wifi, Car Parking, Kitchen</p>
+						<h1 class="text-center">Our Services</h1>
+						<p>Don't worry you're at the right place for hostel booking</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div id="fh5co-hotel-section">
+
+	<div id="fh5co-services-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					<div class="hotel-content">
-						<div class="hotel-grid" style="background-image: url(../images/masereslide1.jpg);">
-						</div>
+					<div class="services">
+						<span><i class="ti-location-pin"></i></span>
 						<div class="desc">
+							<h3>Easy Booking</h3>
+							<p>Flawless Pay connects students to hostel managers without the stress of looking for hostel managers contact</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="hotel-content">
-						<div class="hotel-grid" style="background-image: url(../images/masereslide2.JPG);">
-						</div>
+					<div class="services">
+						<span><i class="ti-money"></i></span>
 						<div class="desc">
+							<h3>Convenient Payment</h3>
+							<p>Payments of Hostels could be made on this website. We also provide students the chance to pay in installments</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="hotel-content">
-						<div class="hotel-grid" style="background-image: url(../images/masereslide3.JPG);">
-						</div>
+					<div class="services">
+						<span><i class="ti-calendar"></i></span>
 						<div class="desc">
+							<h3>Reliable</h3>
+							<p>A reliable website to help with booking and choosing of roommate without going through stress</p>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="row">
-			<div class="col-md-12">
-				<h1 class="text-center mb-4">Rooms Available</h1>
-				<div class="table-wrap">
-					<table class="table">
-					<thead class="thead-primary">
-					  <tr>
-						<th>Room Number</th>
-						<th>Room Type</th>
-						<th>Semester</th>
-						<th>Description</th>
-						<th>Price</th>
-						<th>Book</th>
-					  </tr>
-					</thead>
-					<tbody>
-					  <tr>
-						<th scope="row" class="scope" >M1</th>
-						<td>2 in a room</td>
-						<td>Semester 1</td>
-						<td>First Floor with Hall and Kitchen</td>
-						<td>GH₵6000</td>
-						<td><a href="confirmbooking.html" class="btn btn-primary">Book Now</a></td>
-					  </tr>
-					  <tr>
-						<th scope="row" class="scope" >M2</th>
-						<td>2 in a room</td>
-						<td>Semester 1</td>
-						<td>First Floor with Hall and Kitchen</td>
-						<td>GH₵6000</td>
-						<td><a href="confirmbooking.html" class="btn btn-primary">Book Now</a></td>
-					  </tr>
-					  <tr>
-						<th scope="row" class="scope" >M3</th>
-						<td>1 in a room</td>
-						<td>Semester 1</td>
-						<td>Second Floor with Hall and Kitchen</td>
-						<td>GH₵9000</td>
-						<td><a href="confirmbooking.html" class="btn btn-primary">Book Now</a></td>
-					  </tr>
-					</tbody>
-				  </table>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<footer id="footer" class="fh5co-bg-color">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="copyright">
+						<p><small>&copy; 2016.<br> Men In Tech Industries<br>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-3">
+							<h3>Flawless Pay</h3>
+							<ul class="link">
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Hostels</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<h3>Subscribe</h3>
+							<p>Subscribe to our mailing list for hostel updates</p>
+							<form action="#" id="form-subscribe">
+								<div class="form-field">
+									<input type="email" placeholder="Email Address" id="email">
+									<input type="submit" id="submit" value="Send">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<ul class="social-icons">
+						<li>
+							<a href="#"><i class="icon-twitter-with-circle"></i></a>
+							<a href="#"><i class="icon-facebook-with-circle"></i></a>
+							<a href="#"><i class="icon-instagram-with-circle"></i></a>
+							<a href="#"><i class="icon-linkedin-with-circle"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 	</div>
 	<!-- END fh5co-page -->

@@ -1,3 +1,14 @@
+<?php 
+//require controller
+
+//Call controller to select all rooms in dufie
+
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -6,7 +17,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Hosanna Hostel</title>
+	<title>Dufie Hostel</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -83,23 +94,24 @@
 			<div class="container">
 				<div class="nav-header">
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-					<h1 id="fh5co-logo"><a href="../index.html">Flawless Pay</a></h1>
+					<h1 id="fh5co-logo"><a href="../index.php">Flawless Pay</a></h1>
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li><a href="../index.html">Home</a></li>
+							<li><a href="../index.php">Home</a></li>
 							<li>
 								<a class="active" href="#" class="fh5co-sub-ddown">Hostel</a>
 								<ul class="fh5co-sub-menu">
-								 	<li><a href="tankohostel.html">Tanko Hostel</a></li>
-								 	<li><a href="charlottehostel.html">Charlotte Hostel</a></li>
-									<li><a href="dufie.html">Dufie Hostel</a></li> 
-									<li><a href="masere.html">Masere Hostel</a></li> 
-									<li><a href="hosanna.html">Hosanna Hostel</a></li> 
+								 	<li><a href="tankohostel.php">Tanko Hostel</a></li>
+								 	<li><a href="charlottehostel.php">Charlotte Hostel</a></li>
+									</li>
+									<li><a href="dufie.php">Dufie Hostel</a></li> 
+									<li><a href="masere.php">Masere Hostel</a></li> 
+									<li><a href="hosanna.php">Hosanna Hostel</a></li> 
 								</ul>
 							</li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="blog.html">Off Campus Blog</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="services.php">Services</a></li>
+							<li><a href="blog.php">Off Campus Blog</a></li>
+							<li><a href="contact.php">Contact</a></li>
 							<!-- <li><a href="">Bookings</a></li> -->
 							<li><a href="">Log Out</a></li>
 						</ul>
@@ -110,14 +122,14 @@
 		
 	</div>
 	<!-- end:fh5co-header -->
-	<div class="fh5co-parallax" style="background-image: url(../images/newhosanna.jpg);" data-stellar-background-ratio="0.5">
+	<div class="fh5co-parallax" style="background-image: url(../images/dufie.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 					<div class="fh5co-intro fh5co-table-cell">
-						<h1 class="text-center">Welcome To Hosanna Hostel</h1>
-						<p>Facilities: DSTV, Wifi, Car Parking, Kitchen, Generator</p>
+						<h1 class="text-center">Welcome To Dufie Hostel</h1>
+						<p>Facilities: DSTV, Balcony, Wifi, Car Parking, Generator</p>
 					</div>
 				</div>
 			</div>
@@ -129,7 +141,7 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="hotel-content">
-						<div class="hotel-grid" style="background-image: url(../images/hosanna.jpg);">
+						<div class="hotel-grid" style="background-image: url(../images/dufieslide1.JPG);">
 						</div>
 						<div class="desc">
 						</div>
@@ -137,7 +149,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="hotel-content">
-						<div class="hotel-grid" style="background-image: url(../images/hosannaslide1.jpg);">
+						<div class="hotel-grid" style="background-image: url(../images/dufieslide2.JPG);">
 						</div>
 						<div class="desc">
 						</div>
@@ -145,7 +157,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="hotel-content">
-						<div class="hotel-grid" style="background-image: url(../images/hosannaslide2.jpg);">
+						<div class="hotel-grid" style="background-image: url(../images/dufieslide3.jpg);">
 						</div>
 						<div class="desc">
 						</div>
@@ -172,28 +184,28 @@
 					</thead>
 					<tbody>
 					  <tr>
-						<th scope="row" class="scope" >H1</th>
-						<td>2 in a room</td>
-						<td>Semester 1</td>
-						<td>New Hosanna, First Floor with Kitchen</td>
-						<td>GH₵6000</td>
-						<td><a href="confirmbooking.html" class="btn btn-primary">Book Now</a></td>
-					  </tr>
-					  <tr>
-						<th scope="row" class="scope" >H2</th>
+						<th scope="row" class="scope" >D1</th>
 						<td>2 in a room</td>
 						<td>Semester 1</td>
 						<td>First Floor with Hall and Kitchen</td>
 						<td>GH₵6000</td>
-						<td><a href="confirmbooking.html" class="btn btn-primary">Book Now</a></td>
+						<td><a href="confirmbooking.php" class="btn btn-primary">Book Now</a></td>
 					  </tr>
 					  <tr>
-						<th scope="row" class="scope" >H3</th>
+						<th scope="row" class="scope" >D2</th>
+						<td>2 in a room</td>
+						<td>Semester 1</td>
+						<td>First Floor with Hall and Kitchen</td>
+						<td>GH₵6000</td>
+						<td><a href="confirmbooking.php" class="btn btn-primary">Book Now</a></td>
+					  </tr>
+					  <tr>
+						<th scope="row" class="scope" >D3</th>
 						<td>1 in a room</td>
 						<td>Semester 1</td>
 						<td>Second Floor with Hall and Kitchen</td>
 						<td>GH₵9000</td>
-						<td><a href="confirmbooking.html" class="btn btn-primary">Book Now</a></td>
+						<td><a href="confirmbooking.php" class="btn btn-primary">Book Now</a></td>
 					  </tr>
 					</tbody>
 				  </table>

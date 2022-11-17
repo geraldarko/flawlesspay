@@ -1,3 +1,15 @@
+<?php 
+//require sign up
+
+//require controller
+
+//Call controller to select all rooms in dufie
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -65,7 +77,7 @@ div[style*="margin: 16px 0;"] { margin: 0 !important; }
                                 <table cellspacing="0" cellpadding="0" border="0" align="right">
                                     <tr>
                                         <td style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;">
-                                            <p style="font-size: 18px; font-weight: 400; margin: 0; color: #ffffff;"><a href="../index.html" target="_blank" style="color: #ffffff; text-decoration: none;">BACK &nbsp;</a></p>
+                                            <p style="font-size: 18px; font-weight: 400; margin: 0; color: #ffffff;"><a href="../index.php" target="_blank" style="color: #ffffff; text-decoration: none;">BACK &nbsp;</a></p>
                                         </td>
                                     </tr>
                                 </table>

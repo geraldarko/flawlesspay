@@ -1,3 +1,14 @@
+<?php 
+//require controller
+
+//Call controller to select all rooms in dufie
+
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +65,7 @@
                   </div>
                   <input name="signup" id="signup" class="btn btn-block login-btn mb-4" type="button" value="Signup">
                 </form>
-                <p class="login-card-footer-text">You have an account? <a href="login.html" class="text-reset">Sign In here</a></p>
+                <p class="login-card-footer-text">You have an account? <a href="login.php" class="text-reset">Sign In here</a></p>
                 <nav class="login-card-footer-nav">
                 </nav>
             </div>

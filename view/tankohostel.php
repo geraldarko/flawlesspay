@@ -1,3 +1,13 @@
+<?php 
+//require controller
+
+//Call controller to select all rooms in dufie
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -83,23 +93,23 @@
 			<div class="container">
 				<div class="nav-header">
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-					<h1 id="fh5co-logo"><a href="../index.html">Flawless Pay</a></h1>
+					<h1 id="fh5co-logo"><a href="../index.php">Flawless Pay</a></h1>
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li><a href="../index.html">Home</a></li>
+							<li><a href="../index.php">Home</a></li>
 							<li>
 								<a class="active" href="#" class="fh5co-sub-ddown">Hostel</a>
 								<ul class="fh5co-sub-menu">
-								 	<li><a href="tankohostel.html">Tanko Hostel</a></li>
-								 	<li><a href="charlottehostel.html">Charlotte Hostel</a></li>
-									<li><a href="dufie.html">Dufie Hostel</a></li> 
-									<li><a href="masere.html">Masere Hostel</a></li> 
-									<li><a href="hosanna.html">Hosanna Hostel</a></li> 
+								 	<li><a href="tankohostel.php">Tanko Hostel</a></li>
+								 	<li><a href="charlottehostel.php">Charlotte Hostel</a></li>
+									<li><a href="dufie.php">Dufie Hostel</a></li> 
+									<li><a href="masere.php">Masere Hostel</a></li> 
+									<li><a href="hosanna.php">Hosanna Hostel</a></li> 
 								</ul>
 							</li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="blog.html">Off Campus Blog</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="services.php">Services</a></li>
+							<li><a href="blog.php">Off Campus Blog</a></li>
+							<li><a href="contact.php">Contact</a></li>
 							<!-- <li><a href="">Bookings</a></li> -->
 							<li><a href="">Log Out</a></li>
 						</ul>
@@ -177,7 +187,7 @@
 						<td>Semester 1</td>
 						<td>First Floor with Kitchen</td>
 						<td>GH₵6000</td>
-						<td><a href="confirmbooking.html" class="btn btn-primary">Book Now</a></td>
+						<td><a href="confirmbooking.php" class="btn btn-primary">Book Now</a></td>
 					  </tr>
 					  <tr>
 						<th scope="row" class="scope" >T2</th>
@@ -185,7 +195,7 @@
 						<td>Semester 1</td>
 						<td>First Floor with Kitchen</td>
 						<td>GH₵6000</td>
-						<td><a href="confirmbooking.html" class="btn btn-primary">Book Now</a></td>
+						<td><a href="confirmbooking.php" class="btn btn-primary">Book Now</a></td>
 					  </tr>
 					  <tr>
 						<th scope="row" class="scope" >T3</th>
@@ -193,7 +203,7 @@
 						<td>Semester 1</td>
 						<td>Second Floor with Kitchen</td>
 						<td>GH₵9000</td>
-						<td><a href="confirmbooking.html" class="btn btn-primary">Book Now</a></td>
+						<td><a href="confirmbooking.php" class="btn btn-primary">Book Now</a></td>
 					  </tr>
 					</tbody>
 				  </table>

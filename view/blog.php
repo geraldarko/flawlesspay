@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Charlotte Hostel</title>
+	<title>Student Blog</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -64,8 +64,6 @@
 	
 	<!-- Style -->
 	<link rel="stylesheet" href="../css/style.css">
-	<link rel="stylesheet" href="../css/stylebook.css">
-
 
 	<!-- Modernizr JS -->
 	<script src="../js/modernizr-2.6.2.min.js"></script>
@@ -83,24 +81,22 @@
 			<div class="container">
 				<div class="nav-header">
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-					<h1 id="fh5co-logo"><a href="../index.html">Flawless Pay</a></h1>
+					<h1 id="fh5co-logo"><a href="../index.php">Flawless Pay</a></h1>
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li><a href="../index.html">Home</a></li>
+							<li><a href="../index.php">Home</a></li>
 							<li>
-								<a class="active" href="#" class="fh5co-sub-ddown">Hostel</a>
+								<a href="#" class="fh5co-sub-ddown">Hostel</a>
 								<ul class="fh5co-sub-menu">
-								 	<li><a href="tankohostel.html">Tanko Hostel</a></li>
-								 	<li><a href="charlottehostel.html">Charlotte Hostel</a></li>
-									</li>
-									<li><a href="dufie.html">Dufie Hostel</a></li> 
-									<li><a href="masere.html">Masere Hostel</a></li> 
-									<li><a href="hosanna.html">Hosanna Hostel</a></li> 
+								 	<li><a href="tankohostel.php">Tanko Hostel</a></li>
+								 	<li><a href="charlottehostel.php">Charlotte Hostel</a></li>
+									<li><a href="dufie.php">Dufie Hostel</a></li> 
+									<li><a href="masere.php">Masere Hostel</a></li> 
+									<li><a href="hosanna.php">Hosanna Hostel</a></li> 
 								</ul>
-							</li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="blog.html">Off Campus Blog</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="services.php">Services</a></li>
+							<li><a href="blog.php">Off Campus Blog</a></li>
+							<li><a href="contact.php">Contact</a></li>
 							<!-- <li><a href="">Bookings</a></li> -->
 							<li><a href="">Log Out</a></li>
 						</ul>
@@ -111,98 +107,108 @@
 		
 	</div>
 	<!-- end:fh5co-header -->
-	<div class="fh5co-parallax" style="background-image: url(../images/char.jpg);" data-stellar-background-ratio="0.5">
+	<div class="fh5co-parallax" style="background-image: url(../images/blogcover.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 					<div class="fh5co-intro fh5co-table-cell">
-						<h1 class="text-center">Welcome To Charlotte Hostel</h1>
-						<p>Facilities: DSTV, Food Court, Wifi, Car Parking, Kitchen</p>
+						<h1 class="text-center">Read Our Blog</h1>
+						<p>Get your latest news here!</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div id="fh5co-hotel-section">
+
+	<div id="fh5co-blog-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					<div class="hotel-content">
-						<div class="hotel-grid" style="background-image: url(../images/charslide1.jpg);">
+					<div class="blog-grid" style="background-image: url(../images/uborablog.jpg);">
+						<div class="date text-center">
+							<span>09</span>
+							<small>Aug</small>
 						</div>
-						<div class="desc">
-						</div>
+					</div>
+					<div class="desc">
+						<h3><a href="#">Ubora!!!</a></h3>
+						<p><h4>Celebrating Students and Staff Excellency. Contact the Entertainment Committee (02444419419) for your tickets</h4></p>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="hotel-content">
-						<div class="hotel-grid" style="background-image: url(../images/charslide2.jpg);">
+					<div class="blog-grid" style="background-image: url(../images/voltafootball.jpg);">
+						<div class="date text-center">
+							<span>09</span>
+							<small>Aug</small>
 						</div>
-						<div class="desc">
-						</div>
+					</div>
+					<div class="desc">
+						<h3><a href="#">Volta Football</a></h3>
+						<p><h4>We're loving the energy so far! Male team slots are already full. We are waiting for the successors of Fresh Girls FC to finalize their teams and we'll be all set.</h4></p>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="hotel-content">
-						<div class="hotel-grid" style="background-image: url(../images/charslide3.jpg);">
-						</div>
-						<div class="desc">
+					<div class="blog-grid" style="background-image: url(../images/divedeep.png);">
+						<div class="date text-center">
+							<span>09</span>
+							<small>Aug</small>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="row">
-			<div class="col-md-12">
-				<h1 class="text-center mb-4">Rooms Available</h1>
-				<div class="table-wrap">
-					<table class="table">
-					<thead class="thead-primary">
-					  <tr>
-						<th>Room Number</th>
-						<th>Room Type</th>
-						<th>Semester</th>
-						<th>Description</th>
-						<th>Price</th>
-						<th>Book</th>
-					  </tr>
-					</thead>
-					<tbody>
-					  <tr>
-						<th scope="row" class="scope" >C1</th>
-						<td>2 in a room</td>
-						<td>Semester 1</td>
-						<td>First Floor with Hall and Kitchen</td>
-						<td>GH₵6200</td>
-						<td><a href="confirmbooking.html" class="btn btn-primary">Book Now</a></td>
-					  </tr>
-					  <tr>
-						<th scope="row" class="scope" >C2</th>
-						<td>2 in a room</td>
-						<td>Semester 1</td>
-						<td>First Floor with Big Hall and Kitchen</td>
-						<td>GH₵6500</td>
-						<td><a href="confirmbooking.html" class="btn btn-primary">Book Now</a></td>
-					  </tr>
-					  <tr>
-						<th scope="row" class="scope" >C3</th>
-						<td>1 in a room</td>
-						<td>Semester 1</td>
-						<td>Second Floor with Hall and Kitchen</td>
-						<td>GH₵8000</td>
-						<td><a href="confirmbooking.html" class="btn btn-primary">Book Now</a></td>
-					  </tr>
-					</tbody>
-				  </table>
+					<div class="desc">
+						<h3><a href="#">Dive Deep</a></h3>
+						<p><h4>'Deep in the Heart of the Career Hunt' commences at 4:30 PM. Make your way to the Hive as the panel is in and ready to deliver. Don't forget to come along with questions concerning the job market to which you want answers. See you there!</h4></p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	
+
+	<footer id="footer" class="fh5co-bg-color">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="copyright">
+						<p><small>&copy; 2016. <br>Men In Tech Industries <br>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-3">
+							<h3>Flawless Pay</h3>
+							<ul class="link">
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Hostels</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<h3>Subscribe</h3>
+							<p>Subscribe to our mailing list for hostel updates</p>
+							<form action="#" id="form-subscribe">
+								<div class="form-field">
+									<input type="email" placeholder="Email Address" id="email">
+									<input type="submit" id="submit" value="Send">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<ul class="social-icons">
+						<li>
+							<a href="#"><i class="icon-twitter-with-circle"></i></a>
+							<a href="#"><i class="icon-facebook-with-circle"></i></a>
+							<a href="#"><i class="icon-instagram-with-circle"></i></a>
+							<a href="#"><i class="icon-linkedin-with-circle"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
 	</div>
 	<!-- END fh5co-page -->
 

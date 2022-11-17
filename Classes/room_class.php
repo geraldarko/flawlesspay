@@ -20,5 +20,12 @@ class room_class extends db_connection{
 
 
     //--DELETE ROOM--//
+
+
+
+    //SELECT ALL ROOMS FOR A HOSTEL
+
+
+    
 }
 ?>

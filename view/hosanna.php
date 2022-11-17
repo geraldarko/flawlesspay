@@ -1,3 +1,15 @@
+<?php 
+//require controller
+
+//Call controller to select all rooms in dufie
+
+
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -6,7 +18,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Contact Us</title>
+	<title>Hosanna Hostel</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -64,6 +76,8 @@
 	
 	<!-- Style -->
 	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/stylebook.css">
+
 
 	<!-- Modernizr JS -->
 	<script src="../js/modernizr-2.6.2.min.js"></script>
@@ -81,25 +95,23 @@
 			<div class="container">
 				<div class="nav-header">
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-					<h1 id="fh5co-logo"><a href="../index.html">Flawless Pay</a></h1>
+					<h1 id="fh5co-logo"><a href="../index.php">Flawless Pay</a></h1>
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li><a href="../index.html">Home</a></li>
+							<li><a href="../index.php">Home</a></li>
 							<li>
-								<a href="#" class="fh5co-sub-ddown">Hostels</a>
+								<a class="active" href="#" class="fh5co-sub-ddown">Hostel</a>
 								<ul class="fh5co-sub-menu">
-								 	<li><a href="tankohostel.html">Tanko Hostel</a></li>
-								 	<li><a href="charlottehostel.html">Charlotte Hostel</a></li>
-									<li>
-										<a href="dufie.html" class="fh5co-sub-ddown">Dufie Hostel</a>
-									</li>
-									<li><a href="masere.html">Masere Hostel</a></li> 
-									<li><a href="hosanna.html">Hosanna Hostel</a></li> 
+								 	<li><a href="tankohostel.php">Tanko Hostel</a></li>
+								 	<li><a href="charlottehostel.php">Charlotte Hostel</a></li>
+									<li><a href="dufie.php">Dufie Hostel</a></li> 
+									<li><a href="masere.php">Masere Hostel</a></li> 
+									<li><a href="hosanna.php">Hosanna Hostel</a></li> 
 								</ul>
 							</li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="blog.html">Off Campus Blog</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="services.php">Services</a></li>
+							<li><a href="blog.php">Off Campus Blog</a></li>
+							<li><a href="contact.php">Contact</a></li>
 							<!-- <li><a href="">Bookings</a></li> -->
 							<li><a href="">Log Out</a></li>
 						</ul>
@@ -110,106 +122,97 @@
 		
 	</div>
 	<!-- end:fh5co-header -->
-	<div class="fh5co-parallax" style="background-image: url(../images/contactus.jpg);" data-stellar-background-ratio="0.5">
+	<div class="fh5co-parallax" style="background-image: url(../images/newhosanna.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 					<div class="fh5co-intro fh5co-table-cell">
-						<h1 class="text-center">Contact Us</h1>
+						<h1 class="text-center">Welcome To Hosanna Hostel</h1>
+						<p>Facilities: DSTV, Wifi, Car Parking, Kitchen, Generator</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div id="fh5co-contact-section">
-		<div class="row">
-			<div class="col-md-6">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.6718720796052!2d-0.222111884612012!3d5.760275195825521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf767731dfa583%3A0xc30b0f51f3b91add!2sAshesi%20University!5e0!3m2!1sen!2sgh!4v1667530974237!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-			</div>
-			<div class="col-md-6">
-				<div class="col-md-12">
-					<h3>Our Address</h3>
-					<ul class="contact-info">
-						<li><i class="ti-map"></i>Charlotte Street, Suite 721 AU</li>
-						<li><i class="ti-mobile"></i>+ 233 244 419 419</li>
-						<li><i class="ti-envelope"></i><a href="#">flawlesspay@yoursite.com</a></li>
-						<li><i class="ti-home"></i><a href="#">www.flawlesspay.com</a></li>
-					</ul>
-				</div>
-				<div class="col-md-12">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Name">
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Email">
-							</div>
-						</div>
-						<div class="col-md-12">
-							<div class="form-group">
-								<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
-							</div>
-						</div>
-						<div class="col-md-12">
-							<div class="form-group">
-								<input type="submit" value="Send Message" class="btn btn-primary">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-
-	<footer id="footer" class="fh5co-bg-color">
+	<div id="fh5co-hotel-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3">
-					<div class="copyright">
-						<p><small>&copy; 2016. <br> Men In Tech Industries <br>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="row">
-						<div class="col-md-3">
-							<h3>Company</h3>
-							<ul class="link">
-								<li><a href="#">About Us</a></li>
-								<li><a href="#">Hostels</a></li>
-								<li><a href="#">Contact Us</a></li>
-							</ul>
+				<div class="col-md-4">
+					<div class="hotel-content">
+						<div class="hotel-grid" style="background-image: url(../images/hosanna.jpg);">
 						</div>
-						<div class="col-md-6">
-							<h3>Subscribe</h3>
-							<p>Subscribe to our mailing list for hostel updates</p>
-							<form action="#" id="form-subscribe">
-								<div class="form-field">
-									<input type="email" placeholder="Email Address" id="email">
-									<input type="submit" id="submit" value="Send">
-								</div>
-							</form>
+						<div class="desc">
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
-					<ul class="social-icons">
-						<li>
-							<a href="#"><i class="icon-twitter-with-circle"></i></a>
-							<a href="#"><i class="icon-facebook-with-circle"></i></a>
-							<a href="#"><i class="icon-instagram-with-circle"></i></a>
-							<a href="#"><i class="icon-linkedin-with-circle"></i></a>
-						</li>
-					</ul>
+				<div class="col-md-4">
+					<div class="hotel-content">
+						<div class="hotel-grid" style="background-image: url(../images/hosannaslide1.jpg);">
+						</div>
+						<div class="desc">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="hotel-content">
+						<div class="hotel-grid" style="background-image: url(../images/hosannaslide2.jpg);">
+						</div>
+						<div class="desc">
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</footer>
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="text-center mb-4">Rooms Available</h1>
+				<div class="table-wrap">
+					<table class="table">
+					<thead class="thead-primary">
+					  <tr>
+						<th>Room Number</th>
+						<th>Room Type</th>
+						<th>Semester</th>
+						<th>Description</th>
+						<th>Price</th>
+						<th>Book</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+						<th scope="row" class="scope" >H1</th>
+						<td>2 in a room</td>
+						<td>Semester 1</td>
+						<td>New Hosanna, First Floor with Kitchen</td>
+						<td>GH₵6000</td>
+						<td><a href="confirmbooking.php" class="btn btn-primary">Book Now</a></td>
+					  </tr>
+					  <tr>
+						<th scope="row" class="scope" >H2</th>
+						<td>2 in a room</td>
+						<td>Semester 1</td>
+						<td>First Floor with Hall and Kitchen</td>
+						<td>GH₵6000</td>
+						<td><a href="confirmbooking.php" class="btn btn-primary">Book Now</a></td>
+					  </tr>
+					  <tr>
+						<th scope="row" class="scope" >H3</th>
+						<td>1 in a room</td>
+						<td>Semester 1</td>
+						<td>Second Floor with Hall and Kitchen</td>
+						<td>GH₵9000</td>
+						<td><a href="confirmbooking.php" class="btn btn-primary">Book Now</a></td>
+					  </tr>
+					</tbody>
+				  </table>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	</div>
 	<!-- END fh5co-page -->
@@ -239,9 +242,6 @@
 	<script src="../js/selectFx.js"></script>
 	<!-- Flexslider -->
 	<script src="../js/jquery.flexslider-min.js"></script>
-	<!-- Google Map -->
-	<script src="../https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="../js/google_map.js"></script>
 
 	<script src="../js/custom.js"></script>
 
