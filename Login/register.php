@@ -35,14 +35,14 @@
                 <h3>Welcome To FlawlessPay</h3>
               </div>
               <p class="login-card-description">Sign Up</p>
-              <form action="#!">
+              <form action="register_process" method="POST">
                   <div class="form-group">
-                    <label for="text" class="sr-only">First Name</label>
-                    <input type="text" name="text" id="text" class="form-control" placeholder="First Name">
+                    <label for="text" class="sr-only">Full Name</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Full Name">
                   </div>
                   <div class="form-group">
-                    <label for="text" class="sr-only">Last Name</label>
-                    <input type="text" name="text" id="text" class="form-control" placeholder="Last Name">
+                    <label for="text" class="sr-only">Contact No.</label>
+                    <input type="number" name="number" id="number" class="form-control" placeholder="XXX-XXXX-XXXX">
                   </div>
                   <div class="form-group">
                     <label for="email" class="sr-only">Email</label>
@@ -54,16 +54,16 @@
                   </div>
                   <div class="form-group mb-4">
                     <label for="password" class="sr-only">Password</label>
-                    <input type="password" name="password" id="password" class="form-control" placeholder="Confirm Password">
+                    <input type="password" name="passwordc" id="passwordc" class="form-control" placeholder="Confirm Password">
                   </div>
                   <div class="form-group">
                     <label for="pet-select">Select Gender:</label>
-                    <select name="pets" id="pet-select">
-                        <option value="dog">Male</option>
-                        <option value="cat">Female</option>
+                    <select name="gender" id="pet-select">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
                     </select>
                   </div>
-                  <input name="signup" id="signup" class="btn btn-block login-btn mb-4" type="button" value="Signup">
+                  <input name="signup" id="signup" class="btn btn-block login-btn mb-4" type="submit" value="Signup">
                 </form>
                 <p class="login-card-footer-text">You have an account? <a href="login.php" class="text-reset">Sign In here</a></p>
                 <nav class="login-card-footer-nav">

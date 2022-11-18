@@ -6,7 +6,7 @@
  */
 
 //require db_class
-require("../Settings/db_class.php");
+include_once("../Settings/db_class.php");
 
 class general_class extends db_connection{
     
