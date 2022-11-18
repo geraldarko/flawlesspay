@@ -1,3 +1,15 @@
+<?php 
+//require sign up
+
+//require controller
+
+//Call controller to select all rooms in dufie
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>

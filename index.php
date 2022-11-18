@@ -104,9 +104,9 @@
 									<li><a href="view/hosanna.php">Hosanna Hostel</a></li> 
 								</ul>
 							</li>
-							<li><a href="view/services.html">Services</a></li>
-							<li><a href="view/blog.html">Off Campus Blog</a></li>
-							<li><a href="view/contact.html">Contact</a></li>
+							<li><a href="view/services.php">Services</a></li>
+							<li><a href="view/blog.php">Off Campus Blog</a></li>
+							<li><a href="view/contact.php">Contact</a></li>
 							<!-- <li><a href="">Bookings</a></li> -->
 							<li><a href="login/logout.php">Log Out</a></li>
 						</ul>
