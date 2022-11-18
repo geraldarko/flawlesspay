@@ -1,9 +1,3 @@
-<?php 
-session_start();
-
-include("Controller/user_controller.php");
-
-?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -110,21 +104,11 @@ include("Controller/user_controller.php");
 									<li><a href="view/hosanna.php">Hosanna Hostel</a></li> 
 								</ul>
 							</li>
-							<li><a href="view/services.php">Services</a></li>
-							<li><a href="view/blog.php">Off Campus Blog</a></li>
-							<li><a href="view/contact.php">Contact</a></li>
+							<li><a href="view/services.html">Services</a></li>
+							<li><a href="view/blog.html">Off Campus Blog</a></li>
+							<li><a href="view/contact.html">Contact</a></li>
 							<!-- <li><a href="">Bookings</a></li> -->
-							<?php if($_SESSION['loggedin'] === true){
-								$user = sel_user_ctr($_SESSION['id']);
-								echo "<li>".$user['user_name']."
-								<ul class='fh5co-sub-menu'>
-								 	<li><a href='#'>View Rooom</a></li>
-									 <li><a href='../Login/logout.php'>Logout</a></li>
-								</ul>
-								</li>";
-							} 
-							else echo "<li><a href='Login/login.php'>Log In</a></li>"
-							?>
+							<li><a href="login/logout.php">Log Out</a></li>
 						</ul>
 					</nav>
 				</div>
